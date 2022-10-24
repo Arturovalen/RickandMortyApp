@@ -1,0 +1,29 @@
+.article__location {
+    justify-content: center;
+}
+
+
+.lu__location {
+    background-color: #062226;
+    margin: auto;
+    width: 85%;
+
+    height: 126px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.li__location {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.span__location {
+    font-size: 20px;
+}

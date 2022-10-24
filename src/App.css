@@ -1,0 +1,41 @@
+.App {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 1620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.background__image {
+    width: 1440px;
+    height: 372px;
+    background: url('./image 3.png')
+}
+.background__name-image {
+    position: absolute;
+    width: 454px;
+    height: 176px;
+    left: 493px;
+    top: 48px;
+    background: url('./image 2.png')
+}
+form {
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+}
+input {
+    background-color: #062226;
+    height: 30px;
+}
+button {
+    background-color: #868686;
+    height: 30px;
+
+}

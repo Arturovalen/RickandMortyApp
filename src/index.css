@@ -1,0 +1,45 @@
+/* Reset */
+:root {
+--background-body: #06292E;
+--background-cards: #062226;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: var(--background-body);
+    color: white;
+}
+h1 {
+padding: none;
+text-align: center;
+}
+
+h3, h4, p, ul {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+img {
+    display: block;
+}
+button {
+    border-radius: 5px 5px 5px 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-items: center;
+}
+input {
+    outline: none;
+    border-radius: 5px 5px 5px 5px;
+}
